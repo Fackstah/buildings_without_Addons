@@ -1,0 +1,718 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_Civil",
+		"A3_Structures_F_Mil_Offices",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_Furniture",
+		"a3_map_stratis",
+		"A3_Characters_F_BLUFOR",
+		"A3_Air_F_MH9",
+		"A3_Structures_F_Items_Vessels",
+		"A3_Structures_F_System"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Civil",
+		"A3_Characters_F_BLUFOR",
+		"A3_Air_F_MH9",
+		"A3_Structures_F_Mil_Offices",
+		"A3_Structures_F_Civ_Camping",
+		"A3_Structures_F_Furniture",
+		"A3_Structures_F_Items_Vessels",
+		"A3_Structures_F_System",
+		"a3_map_stratis"
+	};
+	randomSeed=12015300;
+	class Intel
+	{
+		briefingName="Lighting without Scripts";
+		briefingDescription="Lighting without Scripts example mission by fackstah";
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0.099999994;
+		forecastWaves=0;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=2;
+		minute=5;
+	};
+	class Groups
+	{
+		items=11;
+		class Item0
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3606.8279,3.4637299,7482.1328};
+					azimut=-778.92627;
+					offsetY=1;
+					special="NONE";
+					id=0;
+					side="CIV";
+					vehicle="C_man_polo_3_F";
+					leader=1;
+					skill=0.60000002;
+					text="civ1";
+					init="this disableAI ""MOVE""; ";
+					description="Informant";
+				};
+			};
+		};
+		class Item1
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3607.3567,3.4761236,7483.0186};
+					azimut=-778.92627;
+					offsetY=1;
+					special="NONE";
+					id=1;
+					side="CIV";
+					vehicle="C_man_polo_3_F";
+					leader=1;
+					skill=0.60000002;
+					text="civ1_1";
+					init="this disableAI ""MOVE""; ";
+					description="Informant";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3584.2312,35.135376,7376.4019};
+					azimut=-1062.8877;
+					offsetY=1;
+					special="NONE";
+					id=2;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					lock="UNLOCKED";
+					skill=1;
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3618.9709,39.945587,7634.0122};
+					azimut=275.76401;
+					offsetY=50;
+					special="FLY";
+					id=3;
+					side="WEST";
+					vehicle="B_MH9_F";
+					leader=1;
+					skill=0.60000002;
+					init="light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.5; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,-10]];light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.5; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,-20]];";
+				};
+			};
+			class Waypoints
+			{
+				items=4;
+				class Item0
+				{
+					position[]={3298.4148,0,7609.2739};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={3310.1042,41.293861,7233.1865};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={3844.1667,71.247772,7213.4609};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={3806.0972,24.77199,7613.5757};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3582.446,18.548632,7410.3843};
+					azimut=174.37045;
+					id=4;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_red"" createVehicle getPos this;";
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3571.4172,31.15362,7384.0205};
+					azimut=172.61226;
+					id=5;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_yellow"" createVehicle getPos this;";
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3583.6418,18.467831,7410.6206};
+					azimut=174.37045;
+					id=6;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_red"" createVehicle getPos this;";
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3596.8594,18.634605,7407.1729};
+					azimut=264.69373;
+					id=7;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_green"" createVehicle getPos this;";
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3596.842,17.937195,7408.9492};
+					azimut=264.69382;
+					id=8;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_green"" createVehicle getPos this;";
+				};
+			};
+		};
+		class Item9
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3569.4919,17.198927,7412.2798};
+					azimut=175.54361;
+					id=9;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_blue"" createVehicle getPos this;";
+				};
+			};
+		};
+		class Item10
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={3569.6113,16.43692,7413.9409};
+					azimut=175.54361;
+					id=10;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = ""Chemlight_blue"" createVehicle getPos this;";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=15;
+		class Item0
+		{
+			position[]={3603.4023,3.458025,7482.6006};
+			azimut=-152.94183;
+			id=11;
+			side="EMPTY";
+			vehicle="Land_MilOffices_V1_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={3606.1553,3.4753602,7483.1978};
+			azimut=-1319.722;
+			offsetY=0.5;
+			id=12;
+			side="EMPTY";
+			vehicle="Land_CampingTable_F";
+			leader=1;
+			skill=0.2;
+		};
+		class Item2
+		{
+			position[]={3604.6519,3.4819031,7484.0156};
+			azimut=-1410.6342;
+			offsetY=0.5;
+			id=13;
+			side="EMPTY";
+			vehicle="Land_Bench_F";
+			leader=1;
+			skill=0.2;
+		};
+		class Item3
+		{
+			position[]={3612.5503,3.5072436,7484.2246};
+			azimut=-913.70502;
+			offsetY=4;
+			special="FLY";
+			id=14;
+			side="EMPTY";
+			vehicle="Land_Bucket_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+			init="light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.08; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,-3]];";
+		};
+		class Item4
+		{
+			position[]={3609.5403,3.4423957,7474.291};
+			azimut=-913.70502;
+			offsetY=4;
+			special="FLY";
+			id=15;
+			side="EMPTY";
+			vehicle="Land_Bucket_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+			init="light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.08; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,-3]];";
+		};
+		class Item5
+		{
+			position[]={3607.6826,3.5202684,7485.5928};
+			azimut=-1319.722;
+			offsetY=0.5;
+			id=16;
+			side="EMPTY";
+			vehicle="Land_CampingTable_F";
+			leader=1;
+			skill=0.2;
+		};
+		class Item6
+		{
+			position[]={3606.1792,3.5291088,7486.4106};
+			azimut=-1410.6342;
+			offsetY=0.5;
+			id=17;
+			side="EMPTY";
+			vehicle="Land_Bench_F";
+			leader=1;
+			skill=0.2;
+		};
+		class Item7
+		{
+			position[]={3603.3191,3.5856202,7489.8857};
+			azimut=-913.70502;
+			offsetY=4;
+			special="FLY";
+			id=18;
+			side="EMPTY";
+			vehicle="Land_Bucket_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+			init="light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.08; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,-3]];";
+		};
+		class Item8
+		{
+			position[]={3598.8787,3.3682117,7478.0127};
+			azimut=-913.70502;
+			offsetY=4;
+			special="FLY";
+			id=19;
+			side="EMPTY";
+			vehicle="Land_Bucket_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+			init="light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.08; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,-3]];";
+		};
+		class Item9
+		{
+			position[]={3584.9312,7.826345,7448.5308};
+			azimut=-1013.855;
+			special="FLY";
+			id=20;
+			side="EMPTY";
+			vehicle="Land_Bucket_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+			init="light = ""#lightpoint"" createVehicleLocal position this; light setLightBrightness 0.06; light setLightAmbient[0.0, 0.0, 0.0]; light setLightColor[1.0, 1.0, 1.0]; light lightAttachObject [this, [0,0,0]];";
+		};
+		class Item10
+		{
+			position[]={3595.5251,18.595041,7407.791};
+			azimut=-1159.5361;
+			special="FLY";
+			id=21;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+		};
+		class Item11
+		{
+			position[]={3569.9905,17.18445,7412.3677};
+			azimut=-1248.686;
+			special="FLY";
+			id=22;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+		};
+		class Item12
+		{
+			position[]={3571.6594,31.096867,7384.1201};
+			azimut=-1256.0715;
+			special="FLY";
+			id=23;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+		};
+		class Item13
+		{
+			position[]={3585.0161,7.8581467,7448.4048};
+			azimut=-1234.4241;
+			special="FLY";
+			id=24;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+		};
+		class Item14
+		{
+			position[]={3582.1868,18.593185,7410.2642};
+			azimut=-1249.8593;
+			special="FLY";
+			id=25;
+			side="EMPTY";
+			vehicle="Land_ClutterCutter_large_F";
+			leader=1;
+			lock="UNLOCKED";
+			skill=1;
+		};
+	};
+	class Sensors
+	{
+		items=8;
+		class Item0
+		{
+			position[]={3569.8379,17.129917,7412.4683};
+			a=4;
+			b=4;
+			angle=-439.604;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""Blue Chem lights loaded with Gamelogic"",""PLAIN"", 3]; titleFadeOut 3; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item1
+		{
+			position[]={3582.5471,18.539867,7410.4092};
+			a=4;
+			b=4;
+			angle=-348.60699;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""Red Chem lights loaded with Gamelogic"",""PLAIN"", 3]; titleFadeOut 3; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item2
+		{
+			position[]={3571.6519,31.207397,7383.8862};
+			a=4;
+			b=4;
+			angle=-356.26514;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""Yellow Chem light loaded with Gamelogic"",""PLAIN"", 3]; titleFadeOut 3; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item3
+		{
+			position[]={3595.5469,18.530064,7407.9429};
+			a=4;
+			b=4;
+			angle=-440.69699;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""Green Chem lights loaded with Gamelogic"",""PLAIN"", 3]; titleFadeOut 3; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item4
+		{
+			position[]={3584.9729,7.8338275,7448.5005};
+			a=4;
+			b=4;
+			angle=-333.17218;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""Bucket with light in it at 0.006%"",""PLAIN"", 3]; titleFadeOut 3; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item5
+		{
+			position[]={3583.6187,35.961117,7374.8364};
+			a=4;
+			b=4;
+			angle=-177.4742;
+			rectangular=1;
+			activationBy="WEST";
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""Walk up to each example for an explanation"",""PLAIN"", 1]; titleFadeOut 1; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item6
+		{
+			position[]={3605.1296,3.4347224,7480.1519};
+			a=30;
+			b=30;
+			angle=-330.56799;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""indoor lighting done with Buckets set at 4 meters just above the indoorlights set at 0.08"",""PLAIN"", 3]; titleFadeOut 3; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+		class Item7
+		{
+			position[]={3603.3997,12.047318,7424.437};
+			a=100;
+			b=1;
+			angle=-348.897;
+			rectangular=1;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expActiv="titleText [""The helicopter has light attached to it twice once at -10 Y  and another at -20 y and both are set at 0.5% light intensity"",""PLAIN"", 5]; titleFadeOut 5; ";
+			class Effects
+			{
+				voice="HintsOpen";
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=14321167;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=721901;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=1491155;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};

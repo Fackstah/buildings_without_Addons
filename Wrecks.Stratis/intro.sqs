@@ -1,0 +1,56 @@
+;Introsequenz
+titleCut [" ", "BLACK IN"]; titleFadeOut 4
+
+_camera = "camera" camCreate [1348.34,4974.58,50]
+
+;Position 1 oben
+_camera camPreparePos [1348.34,4974.58,50]
+_camera camPrepareTarget [1585.15,5004.35,0.00143862]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 0
+@camCommitted _camera
+_camera cameraEffect ["internal","back"]
+showcinemaborder false
+
+~2
+
+titleText ["More buildings without Scripts or addons", "Plain"]; 
+
+~2
+
+titleText ["Copy paste these into your own mission", "Plain"]; 
+
+;Position 2 west
+_camera camPrepareTarget [1666.67,5322.68,0.00143862]
+_camera camPreparePos [1849.13,5462.43,50]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 5
+@camCommitted _camera
+
+~2
+
+titleText ["Stay up to date at fussion-networks.com/desolate", "Plain"]; 
+
+;=== east
+_camera camPrepareTarget [1704.2,5466.32,0.00143862]
+_camera camPreparePos [1749.49,5597.01,50]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 5
+@camCommitted _camera
+
+~2
+
+;=== ende
+_camera camPrepareTarget [1662.79,5300.68,0.00143862]
+_camera camPreparePos [1335.94,5420.59,50]
+_camera camPrepareFOV 0.700
+_camera camCommitPrepared 5
+@camCommitted _camera
+
+titleText ["intro script included!", "Plain"]; 
+
+~2
+ 
+_camera cameraEffect ["terminate","back"]
+camDestroy _camera
+exit

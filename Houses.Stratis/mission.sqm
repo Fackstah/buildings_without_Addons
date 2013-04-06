@@ -1,0 +1,475 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_Mil_Barracks",
+		"A3_Structures_F_Ind_AirPort",
+		"A3_Structures_F_Households_House_Big01",
+		"A3_Structures_F_Households_House_Small01",
+		"A3_Structures_F_Households_House_Big02",
+		"A3_Structures_F_Households_House_Small02",
+		"A3_Structures_F_Households_House_Small03",
+		"A3_Structures_F_Mil_Offices",
+		"A3_Structures_F_Households_House_Shop01",
+		"A3_Structures_F_Households_House_Shop02",
+		"a3_structures_f_households_slum",
+		"a3_structures_f_households_stone_big",
+		"A3_Structures_F_Households_Stone_Shed"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_Mil_Barracks",
+		"A3_Structures_F_Ind_AirPort",
+		"A3_Structures_F_Households_House_Big01",
+		"A3_Structures_F_Households_House_Small01",
+		"A3_Structures_F_Households_House_Big02",
+		"A3_Structures_F_Households_House_Small02",
+		"A3_Structures_F_Households_House_Small03",
+		"A3_Structures_F_Mil_Offices",
+		"A3_Structures_F_Households_House_Shop01",
+		"A3_Structures_F_Households_House_Shop02",
+		"a3_structures_f_households_slum",
+		"a3_structures_f_households_stone_big",
+		"A3_Structures_F_Households_Stone_Shed",
+		"a3_map_stratis"
+	};
+	randomSeed=1444393;
+	class Intel
+	{
+		briefingName="Individual Buildings no scripts by fackstah";
+		briefingDescription="Individual Buildings no scripts by fackstah";
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=35;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1593.5311,5.5,5070.6392};
+					azimut=-427.86377;
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=32;
+		class Item0
+		{
+			position[]={1551.8685,5.5,5085.2466};
+			azimut=12.7836;
+			id=1;
+			side="EMPTY";
+			vehicle="Land_i_Barracks_V1_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={1533.3649,5.5,5031.0571};
+			azimut=12.7836;
+			id=2;
+			side="EMPTY";
+			vehicle="Land_Airport_Tower_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={1566.4071,5.5,5142.7402};
+			azimut=12.7836;
+			id=3;
+			side="EMPTY";
+			vehicle="Land_i_House_Big_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={1582.9283,5.5,5201.5552};
+			azimut=12.7836;
+			id=4;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={1596.806,5.5,5247.8145};
+			azimut=12.7836;
+			id=5;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_01_V2_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={1608.0406,5.5,5297.3784};
+			azimut=12.7836;
+			id=6;
+			side="EMPTY";
+			vehicle="Land_u_House_Small_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={1621.2577,5.5,5342.9771};
+			azimut=12.7836;
+			id=7;
+			side="EMPTY";
+			vehicle="Land_i_House_Big_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={1707.8287,5.5,5317.8647};
+			azimut=12.7836;
+			id=8;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={1697.9161,5.5,5274.9092};
+			azimut=12.7836;
+			id=9;
+			side="EMPTY";
+			vehicle="Land_u_House_Small_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={1687.3425,5.5,5239.2236};
+			azimut=12.7836;
+			id=10;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_03_V1_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={1676.1079,5.5,5194.9473};
+			azimut=12.7836;
+			id=11;
+			side="EMPTY";
+			vehicle="Land_MilOffices_V1_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={1655.6217,5.5,5142.0796};
+			azimut=12.7836;
+			id=12;
+			side="EMPTY";
+			vehicle="Land_i_Shop_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item12
+		{
+			position[]={1646.3699,5.5,5087.8896};
+			azimut=12.7836;
+			id=13;
+			side="EMPTY";
+			vehicle="Land_i_Shop_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={1633.153,5.5,5040.3086};
+			azimut=12.7836;
+			id=14;
+			side="EMPTY";
+			vehicle="Land_Slum_House01_F";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={1627.2052,5.5,5002.6406};
+			azimut=12.7836;
+			id=15;
+			side="EMPTY";
+			vehicle="Land_i_Stone_HouseBig_V1_F";
+			skill=0.60000002;
+		};
+		class Item15
+		{
+			position[]={1580.9459,5.5,5002.6411};
+			azimut=12.7836;
+			id=16;
+			side="EMPTY";
+			vehicle="Land_i_Stone_Shed_V1_F";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={1754.4736,5.5,5451.064};
+			azimut=-165.30951;
+			id=17;
+			side="EMPTY";
+			vehicle="Land_i_Barracks_V1_F";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={1774.7699,5.5,5504.605};
+			azimut=-165.30951;
+			id=18;
+			side="EMPTY";
+			vehicle="Land_Airport_Tower_F";
+			skill=0.60000002;
+		};
+		class Item18
+		{
+			position[]={1738.0316,5.5,5394.0796};
+			azimut=-165.30951;
+			id=19;
+			side="EMPTY";
+			vehicle="Land_i_House_Big_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={1712.9053,5.5,5450.9248};
+			azimut=-165.30951;
+			id=20;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={1659.4539,5.5,5478.374};
+			azimut=-165.30951;
+			id=21;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_01_V2_F";
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={1646.5778,5.5,5429.2129};
+			azimut=-165.30951;
+			id=22;
+			side="EMPTY";
+			vehicle="Land_u_House_Small_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={1631.8525,5.5,5384.0815};
+			azimut=-165.30951;
+			id=23;
+			side="EMPTY";
+			vehicle="Land_i_House_Big_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={1602.2732,5.5,5105.8359};
+			azimut=-165.30951;
+			id=24;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={1613.6106,5.5,5148.437};
+			azimut=-165.30951;
+			id=25;
+			side="EMPTY";
+			vehicle="Land_u_House_Small_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={1625.3639,5.5,5183.7471};
+			azimut=-165.30951;
+			id=26;
+			side="EMPTY";
+			vehicle="Land_i_House_Small_03_V1_F";
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={1638.0677,5.5,5227.6294};
+			azimut=-165.30951;
+			id=27;
+			side="EMPTY";
+			vehicle="Land_MilOffices_V1_F";
+			skill=0.60000002;
+		};
+		class Item27
+		{
+			position[]={1660.3013,5.5,5279.7861};
+			azimut=-165.30951;
+			id=28;
+			side="EMPTY";
+			vehicle="Land_i_Shop_01_V1_F";
+			skill=0.60000002;
+		};
+		class Item28
+		{
+			position[]={1671.3488,5.5,5333.6392};
+			azimut=-165.30951;
+			id=29;
+			side="EMPTY";
+			vehicle="Land_i_Shop_02_V1_F";
+			skill=0.60000002;
+		};
+		class Item29
+		{
+			position[]={1686.1437,5.5,5380.7524};
+			azimut=-165.30951;
+			id=30;
+			side="EMPTY";
+			vehicle="Land_Slum_House01_F";
+			skill=0.60000002;
+		};
+		class Item30
+		{
+			position[]={1693.3397,5.5,5418.2056};
+			azimut=-165.30951;
+			id=31;
+			side="EMPTY";
+			vehicle="Land_i_Stone_HouseBig_V1_F";
+			skill=0.60000002;
+		};
+		class Item31
+		{
+			position[]={1724.3594,5.5,5351.9927};
+			azimut=-165.30951;
+			id=32;
+			side="EMPTY";
+			vehicle="Land_i_Stone_Shed_V1_F";
+			skill=0.60000002;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={8288.9229,0.53647059,6084.8599};
+			a=1;
+			b=1;
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="";
+			expActiv="player exec ""intro.sqs"";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=15163785;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=12747176;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=5677403;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};

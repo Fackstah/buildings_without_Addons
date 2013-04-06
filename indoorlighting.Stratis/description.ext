@@ -1,0 +1,13 @@
+author = Fackstah;
+onLoadName = Nighttime Lighting;
+onLoadMission = Walk up to each example to see what it does, lighting at night without external scripts.;
+Respawn = 3;
+RespawnDelay =1;
+loadScreen = "logo.jpg";
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers =16;
+};
+

@@ -1,0 +1,401 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_Ind_Transmitter_Tower",
+		"A3_Structures_F_Mil_Cargo",
+		"A3_Structures_F_Mil_TentHangar"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_Ind_Transmitter_Tower",
+		"A3_Structures_F_Mil_Cargo",
+		"A3_Structures_F_Mil_TentHangar",
+		"a3_map_stratis"
+	};
+	randomSeed=1444393;
+	class Intel
+	{
+		briefingName="Individual Buildings no scripts by fackstah";
+		briefingDescription="Individual Buildings no scripts by fackstah";
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=35;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1593.5311,5.5,5070.6392};
+					azimut=-427.86377;
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=26;
+		class Item0
+		{
+			position[]={1536.449,5.5,5048.0054};
+			azimut=12.7836;
+			id=1;
+			side="EMPTY";
+			vehicle="Land_Communication_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={1547.5459,5.5,5086.8442};
+			azimut=12.7836;
+			id=2;
+			side="EMPTY";
+			vehicle="Land_Cargo_House_V1_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={1560.4924,5.5,5139.5552};
+			azimut=12.7836;
+			id=3;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V1_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={1576.2133,5.5,5189.4912};
+			azimut=12.7836;
+			id=4;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V1_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={1589.1597,5.5,5239.4272};
+			azimut=12.7836;
+			id=5;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={1626.1495,5.5,5009.1655};
+			azimut=12.7836;
+			id=6;
+			side="EMPTY";
+			vehicle="Land_Communication_F";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={1637.2465,5.5,5048.0044};
+			azimut=12.7836;
+			id=7;
+			side="EMPTY";
+			vehicle="Land_Cargo_House_V1_F";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={1650.193,5.5,5100.7153};
+			azimut=12.7836;
+			id=8;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V1_F";
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={1665.9138,5.5,5150.6514};
+			azimut=12.7836;
+			id=9;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V1_F";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={1678.8602,5.5,5200.5874};
+			azimut=12.7836;
+			id=10;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={1603.9556,5.5,5116.436};
+			azimut=12.7836;
+			id=11;
+			side="EMPTY";
+			vehicle="Land_Communication_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={1615.0525,5.5,5155.2749};
+			azimut=12.7836;
+			id=12;
+			side="EMPTY";
+			vehicle="Land_Cargo_House_V1_F";
+			skill=0.60000002;
+		};
+		class Item12
+		{
+			position[]={1627.999,5.5,5207.9858};
+			azimut=12.7836;
+			id=13;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V1_F";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={1643.7198,5.5,5257.9219};
+			azimut=12.7836;
+			id=14;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V1_F";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={1656.6663,5.5,5307.8579};
+			azimut=12.7836;
+			id=15;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item15
+		{
+			position[]={1756.1741,5.5,5163.7378};
+			azimut=-165.49718;
+			id=16;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V1_F";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={1738.9636,5.5672755,5114.2905};
+			azimut=-165.49718;
+			id=17;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V1_F";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={1756.6549,5.5,5312.2632};
+			azimut=-165.49718;
+			id=18;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item18
+		{
+			position[]={1712.3705,5.5,5344.3535};
+			azimut=-165.49718;
+			id=19;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V1_F";
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={1695.1602,5.5,5294.9077};
+			azimut=-165.49718;
+			id=20;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V1_F";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={1680.7196,5.5,5245.3882};
+			azimut=-165.49718;
+			id=21;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={1630.1857,5.5,5370.8252};
+			azimut=-165.49718;
+			id=22;
+			side="EMPTY";
+			vehicle="Land_Communication_F";
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={1617.9282,5.5,5332.3345};
+			azimut=-165.49718;
+			id=23;
+			side="EMPTY";
+			vehicle="Land_Cargo_House_V1_F";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={1603.4061,5.5,5280.0415};
+			azimut=-165.49718;
+			id=24;
+			side="EMPTY";
+			vehicle="Land_Cargo_HQ_V1_F";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={1707.4216,5.5,5150.7114};
+			azimut=-165.49718;
+			id=25;
+			side="EMPTY";
+			vehicle="Land_Cargo_Patrol_V1_F";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={1692.9832,5.5,5101.187};
+			azimut=-165.49718;
+			id=26;
+			side="EMPTY";
+			vehicle="Land_TentHangar_V1_F";
+			skill=0.60000002;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={8288.9229,0.53647059,6084.8599};
+			a=1;
+			b=1;
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="";
+			expActiv="player exec ""intro.sqs"";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=15163785;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=12747176;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=5677403;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};

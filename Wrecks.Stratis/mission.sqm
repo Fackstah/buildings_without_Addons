@@ -1,0 +1,451 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_map_stratis",
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_Wrecks"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"A3_Structures_F_Wrecks",
+		"a3_map_stratis"
+	};
+	randomSeed=1444393;
+	class Intel
+	{
+		briefingName="Individual Buildings no scripts by fackstah";
+		briefingDescription="Individual Buildings no scripts by fackstah";
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=35;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1655.2589,5.5,5095.9121};
+					azimut=-778.6947;
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=32;
+		class Item0
+		{
+			position[]={1559.3694,5.5,5087.7256};
+			azimut=103.50137;
+			id=1;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car_F";
+			skill=0.60000002;
+		};
+		class Item1
+		{
+			position[]={1558.1654,5.5,5076.0498};
+			azimut=-7.6247587;
+			id=2;
+			side="EMPTY";
+			vehicle="Land_Wreck_BRDM2_F";
+			skill=0.60000002;
+		};
+		class Item2
+		{
+			position[]={1562.7695,5.5,5098.5034};
+			azimut=-7.6247587;
+			id=3;
+			side="EMPTY";
+			vehicle="Land_Wreck_Truck_F";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={1550.7426,5.5,5051.8931};
+			azimut=103.50124;
+			id=4;
+			side="EMPTY";
+			vehicle="Land_Wreck_Commanche_F";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={1530.6981,5.5,5033.8936};
+			azimut=-7.6247587;
+			id=5;
+			side="EMPTY";
+			vehicle="Land_UWreck_FishingBoat_F";
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={1554.1431,5.5,5062.6709};
+			azimut=-7.6247587;
+			id=6;
+			side="EMPTY";
+			vehicle="Land_Wreck_Truck_dropside_F";
+			skill=0.60000002;
+		};
+		class Item6
+		{
+			position[]={1582.8584,5.5,5087.7383};
+			azimut=103.50137;
+			id=7;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car_F";
+			skill=0.60000002;
+		};
+		class Item7
+		{
+			position[]={1581.6547,5.5,5076.0635};
+			azimut=-7.6247587;
+			id=8;
+			side="EMPTY";
+			vehicle="Land_Wreck_BRDM2_F";
+			skill=0.60000002;
+		};
+		class Item8
+		{
+			position[]={1586.2588,5.5,5098.5161};
+			azimut=-7.6247587;
+			id=9;
+			side="EMPTY";
+			vehicle="Land_Wreck_Truck_F";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={1544.3016,5.5,5011.4341};
+			azimut=103.50124;
+			id=10;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car3_F";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={1528.5721,5.5,4981.2588};
+			azimut=-7.6247587;
+			id=11;
+			side="EMPTY";
+			vehicle="Land_UWreck_MV22_F";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={1549.7083,5.5,5025.6113};
+			azimut=-7.6247587;
+			id=12;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car2_F";
+			skill=0.60000002;
+		};
+		class Item12
+		{
+			position[]={1574.8048,5.5059757,5020.8862};
+			azimut=103.50124;
+			id=13;
+			side="EMPTY";
+			vehicle="Land_Wreck_Offroad2_F";
+			skill=0.60000002;
+		};
+		class Item13
+		{
+			position[]={1567.3373,5.6599998,4995.8438};
+			azimut=-7.6247587;
+			id=14;
+			side="EMPTY";
+			vehicle="Land_Wreck_Offroad_F";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={1630.458,5.5,5060.8057};
+			azimut=-7.6247587;
+			id=15;
+			side="EMPTY";
+			vehicle="Land_Wreck_Traw2_F";
+			skill=0.60000002;
+		};
+		class Item15
+		{
+			position[]={1609.6732,5.5,5014.7124};
+			azimut=103.50124;
+			id=16;
+			side="EMPTY";
+			vehicle="Land_Wreck_Traw_F";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={1652.3082,5.5,5186.9536};
+			azimut=-80.824722;
+			id=17;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car_F";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={1652.6267,5.5,5198.689};
+			azimut=-191.95079;
+			id=18;
+			side="EMPTY";
+			vehicle="Land_Wreck_BRDM2_F";
+			skill=0.60000002;
+		};
+		class Item18
+		{
+			position[]={1649.7312,5.5,5175.9521};
+			azimut=-191.95079;
+			id=19;
+			side="EMPTY";
+			vehicle="Land_Wreck_Truck_F";
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={1658.2068,5.5,5223.3379};
+			azimut=-80.82486;
+			id=20;
+			side="EMPTY";
+			vehicle="Land_Wreck_Commanche_F";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={1676.8376,5.5,5242.7974};
+			azimut=-191.95079;
+			id=21;
+			side="EMPTY";
+			vehicle="Land_UWreck_FishingBoat_F";
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={1655.632,5.5,5212.333};
+			azimut=-191.95079;
+			id=22;
+			side="EMPTY";
+			vehicle="Land_Wreck_Truck_dropside_F";
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={1628.8899,5.5,5185.168};
+			azimut=-80.824722;
+			id=23;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car_F";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={1629.2076,5.5,5196.9058};
+			azimut=-191.95079;
+			id=24;
+			side="EMPTY";
+			vehicle="Land_Wreck_BRDM2_F";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={1626.311,5.5,5174.1689};
+			azimut=-191.95079;
+			id=25;
+			side="EMPTY";
+			vehicle="Land_Wreck_Truck_F";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={1661.579,5.5,5264.1689};
+			azimut=-80.82486;
+			id=26;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car3_F";
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={1674.9882,5.5,5295.4429};
+			azimut=-191.95079;
+			id=27;
+			side="EMPTY";
+			vehicle="Land_UWreck_MV22_F";
+			skill=0.60000002;
+		};
+		class Item27
+		{
+			position[]={1657.257,5.5,5249.6206};
+			azimut=-191.95079;
+			id=28;
+			side="EMPTY";
+			vehicle="Land_Wreck_Car2_F";
+			skill=0.60000002;
+		};
+		class Item28
+		{
+			position[]={1631.8745,5.5,5252.4395};
+			azimut=-80.82486;
+			id=29;
+			side="EMPTY";
+			vehicle="Land_Wreck_Offroad2_F";
+			skill=0.60000002;
+		};
+		class Item29
+		{
+			position[]={1637.433,5.5,5277.9746};
+			azimut=-191.95079;
+			id=30;
+			side="EMPTY";
+			vehicle="Land_Wreck_Offroad_F";
+			skill=0.60000002;
+		};
+		class Item30
+		{
+			position[]={1579.3926,5.5,5208.4365};
+			azimut=-191.95079;
+			id=31;
+			side="EMPTY";
+			vehicle="Land_Wreck_Traw2_F";
+			skill=0.60000002;
+		};
+		class Item31
+		{
+			position[]={1596.6405,5.5,5255.9678};
+			azimut=-80.82486;
+			id=32;
+			side="EMPTY";
+			vehicle="Land_Wreck_Traw_F";
+			skill=0.60000002;
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={7897.7734,-0.21791275,6003.9736};
+			a=1;
+			b=1;
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="";
+			expActiv="player exec ""intro.sqs"";";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=15163785;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=12747176;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_stratis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_stratis"
+	};
+	randomSeed=5677403;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+	};
+};
